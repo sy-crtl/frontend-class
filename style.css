@@ -1,0 +1,175 @@
+/* ===== RESET PROFESIONAL ===== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: "Segoe UI", Arial, sans-serif;
+    background:#f4f6f9;
+    color:#333;
+}
+
+
+/* ===== HEADER ===== */
+
+header{
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:25px;
+    font-size:24px;
+    letter-spacing:2px;
+}
+
+
+/* ===== NAVBAR ===== */
+
+nav{
+    background:#1e1e1e;
+    display:flex;
+    justify-content:center;
+    gap:50px;
+    padding:15px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    font-weight:600;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#00bcd4;
+}
+
+
+/* ===== SECCION PRINCIPAL ===== */
+
+section{
+    display:grid;
+    grid-template-columns: 250px 250px 350px 1fr;
+    gap:30px;
+    padding:40px;
+    align-items:start;
+}
+
+
+/* ===== TARJETAS ===== */
+
+article{
+    background:white;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 6px 15px rgba(0,0,0,0.1);
+    text-align:center;
+    transition:0.3s;
+}
+
+article:hover{
+    transform:translateY(-5px);
+}
+
+
+/* ===== IMAGEN ===== */
+
+figure{
+    text-align:center;
+}
+
+figure img{
+    width:100%;
+    border-radius:12px;
+    box-shadow:0 6px 15px rgba(0,0,0,0.2);
+}
+
+
+/* ===== INFORMACION AUTOR ===== */
+
+.info{
+    font-size:14px;
+    line-height:1.6;
+}
+
+
+/* ===== FORMULARIO ===== */
+
+form{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:20px;
+    padding:30px;
+}
+
+form label{
+    font-weight:600;
+}
+
+form input{
+    padding:8px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+form button{
+    padding:8px 20px;
+    background:#111;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+form button:hover{
+    background:#00bcd4;
+}
+
+
+/* ===== MULTIMEDIA ===== */
+
+.media{
+    text-align:center;
+    padding:40px;
+}
+
+video{
+    width:600px;
+    max-width:90%;
+    border-radius:10px;
+    margin-top:20px;
+}
+
+audio{
+    margin-top:20px;
+}
+
+
+/* ===== PROGRESS ===== */
+
+progress{
+    width:300px;
+    height:20px;
+    margin-top:20px;
+}
+
+
+/* ===== DETAILS ===== */
+
+details{
+    width:300px;
+    margin:30px auto;
+    background:white;
+    padding:15px;
+    border-radius:10px;
+    box-shadow:0 5px 10px rgba(0,0,0,0.1);
+}
+
+summary{
+    font-weight:bold;
+    cursor:pointer;
+}
